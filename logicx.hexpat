@@ -15,4 +15,4 @@ struct logicx_block {
     std::mem::Bytes<size> data;
 };
 
-logicx_block riff[while (!std::mem::eof())] @ 24;
+logicx_block blocks[while (!std::mem::eof())] @ 24;
